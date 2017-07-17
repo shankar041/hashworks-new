@@ -41,7 +41,7 @@ shankar/hashworks-new:
     #- sudo apt-get -y install tomcat7
 
   PostInstall:
-    - java -jar /target/hashworks-new-0.0.1-SNAPSHOT.jar 
+    - java -jar hashworks-new-0.0.1-SNAPSHOT.jar 
     #- echo "PostStart"
     #- publicip=$(curl -s ident.me)
     #- echo "Public IP $publicip"
